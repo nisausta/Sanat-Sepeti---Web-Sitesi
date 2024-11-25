@@ -1,0 +1,524 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  font-weight: 500;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+/* /////////////////////NAVBAR/////////////////////////*/
+nav {
+  background-color: #000;
+  padding: 30px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-weight: bold;
+}
+
+.logo {
+  font-family: Montserrat;
+  text-decoration: none;
+  color: white;
+  padding: 80px;
+  font-size: 30px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #191970;
+  border-radius: 8px;
+  color: #000;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: bold;
+
+  margin-top: 2px;
+  transition: all 0.4s;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #E0FFFF;
+  color: black;
+}
+
+/* /////////////////////NAVBAR/////////////////////////*/
+
+/*/////////////////HEADER/////////////////*/
+
+
+header {
+  background-color: white;
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 35px;
+
+}
+
+.photo-container img {
+
+  margin-top: 4px;
+  padding: 4px;
+  width: 50px;
+  height: 60px;
+
+}
+
+
+/*/////////////////HEADER/////////////////*/
+
+/*//////////////AMANAGOVDE//////////////////*/
+
+.photos {
+
+  padding: 25px;
+}
+
+.ilk {
+
+  margin-top: 50px;
+  max-width: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 2px;
+  border: 6px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+
+
+}
+
+
+.ikinci {
+
+  margin: 50px;
+  max-width: 45%;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 2px;
+  border: 6px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+
+.ucuncu {
+  margin: 50px;
+  max-width: 45%;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 2px;
+  border: 6px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+
+
+.dorduncu {
+
+  margin-top: 50px;
+  max-width: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 2px;
+  border: 6px solid #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  clear: both;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.ikinci,
+.ucuncu {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.haberler-foto {
+  display: flex;
+  align-items: center;
+}
+
+.haberler-foto img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.haber-icerik {
+  flex: 1;
+}
+
+.albumler {
+  text-align: center;
+}
+
+.albumler div {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.albumler img {
+  padding: 4px;
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.albumler h3 {
+  text-align: center;
+}
+
+.albumler2 {
+  text-align: center;
+}
+
+.albumler2 div {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.albumler2 img {
+  padding: 4px;
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.albumler2 h3 {
+  text-align: center;
+}
+
+.resim {
+  text-align: center;
+}
+
+.resim div {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.resim img {
+  padding: 4px;
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.resim h3 {
+  text-align: center;
+}
+
+.resim2 {
+  text-align: center;
+}
+
+.resim2 div {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.resim2 img {
+  padding: 4px;
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.resim2 h3 {
+  text-align: center;
+}
+
+.uyarı {
+  margin-top: 8px;
+  color: black;
+  text-align: center;
+}
+
+
+.onecikanlar h2 {
+  text-align: center;
+}
+
+.etkinlikler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.photo-album {
+  display: flex;
+}
+
+.photo {
+  margin: 0 10px;
+  
+  text-align: center;  
+}
+
+/**/
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+li {
+  width: 250px;
+  border: 5px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+li img {
+  width: 100%;
+  height: auto;
+}
+
+li div {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.urunlerbaslik {
+  text-align: center;
+}
+
+.sepetiG {
+  border-radius: 10px;
+  background-color: #060302;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sepetiG:hover {
+  opacity: 1;
+}
+
+.cikisyap {
+  border-radius: 10px;
+  background-color: #060302;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.cikisyap:hover {
+  opacity: 1
+}
+
+.butonsatiri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}/*
+.devamEt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.devamEt:hover {
+  opacity: 1;
+}
+*/
+.devamEtContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh; /
+}
+
+.devamEt {
+  background: black;
+  color: white;
+  border: #000;
+}
+
+
+.sepetYazi {
+
+  text-align: center;
+
+}
+
+.sepetBos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-button {
+  border-radius: 10px;
+  background-color: #060302;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  opacity: 1
+}
+.photo-album {
+  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;  
+  align-items: center; 
+ 
+}
+/*
+.photo {
+ margin:0px 50px;
+}*/
+.photo img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+.odememetni{
+
+  text-align: center;
+}
+
+
